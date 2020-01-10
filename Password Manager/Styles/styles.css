@@ -1,0 +1,65 @@
+/* StyleSheet.css */
+body{
+    background-color: "#0d0d0d";
+}
+p{
+    color: white;
+    text-align: center;
+}
+h1,h2,h3{
+    color: white;
+    text-align: center;
+}
+#titles{
+    text-align: "center";
+    color : white;
+    text-align: center;
+}
+.background{
+    background-image: linear-gradient(to bottom right, #0d0d0d, #0d0d0d);
+    
+}
+
+.main_div{
+    height: 200px;
+    width: 200px;
+}
+.red{
+    border-left:100px solid #ff2929;
+    border-bottom:100px solid white;
+    border-top:0px solid white;
+    overflow:hidden;
+    float:left;
+    float: top;
+}
+.yellow{
+    border-right:100px solid #fff42b;
+    border-bottom:100px solid white;
+    border-top:0px solid white;
+    overflow:hidden;
+    float: right;
+    float: top;
+}
+.green{
+    border-left:100px solid #3dff2b;
+    border-top:100px solid white;
+    border-bottom:0px solid white;
+    overflow:hidden;
+    float: bottom;
+    float: left;
+}
+.blue{
+    border-right:100px solid #2b72ff;
+    border-top:100px solid white;
+    border-bottom:0px solid white;
+    overflow:hidden;
+    float: right;
+    float: bottom;
+}
+#tred{
+  transform: rotate(-45deg);
+  font-size: 14px;
+  left: 25px;
+  top: 25px;
+  flex-wrap: wrap;
+}

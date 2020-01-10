@@ -1,0 +1,69 @@
+.home{
+  border-left:25px solid white;
+  border-bottom:25px solid transparent;
+  border-top:0px solid transparent;
+  overflow:hidden;
+  float:left;
+  float: top;
+}
+.home:hover{
+  opacity: .75;
+}
+body{
+  background-color: black;
+  color: white;
+}
+.button{
+  background-color: yellow;
+  color: black;
+  width:100%;
+  border: none;
+  text-align: center;
+}
+.button:hover{
+  background-color: rgba(255, 255, 0, 0.795);
+  color: black;
+  width:100%;
+  border: none;
+  text-align: center;
+}
+#main{
+  color: white;
+
+
+}
+.container{
+width: 200px;
+height: 200px;
+}
+p{
+color: white;
+}
+.pass{
+  float: right;
+  color: white;
+  text-decoration: underline;
+}
+.user{
+  float: center;
+  color: white;
+  text-decoration: underline;
+}
+#passwords{
+margin-left: 15px;
+}
+#emailusernames{
+float: center;
+}
+#right{
+  float: right;
+  width: 100px;
+}
+#left{
+  float: left;
+  width: 100px;
+}
+#username{
+  width: 200px;
+
+}

@@ -1,0 +1,103 @@
+body{
+background: #0d0d0d;
+
+}
+.slidecontainer {
+    width: 200px;
+    height: 200px;
+    background-color: #0d0d0d; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: white; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 1; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 0.75; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: red; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  #submit{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    color: 0d0d0d;
+    border: none;
+    background: #ff2929;
+    color: white;
+    border:#0d0d0d;
+    text-align: center;
+
+  }
+  #submit:hover{
+    opacity: .75;
+  }
+  #return{
+      width: 100%;
+      height: 50px;
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      background-color: transparent;
+      text-align: center;
+
+  }
+  #submit{
+    width: 100%;
+    height: 50px;
+  }
+#min{
+    color:white;
+    float:left;
+  }
+  #mid{
+    color:white;
+    float:middle;
+  }
+#max{
+    color: white;
+    float: right;
+
+}
+.title{
+  color: white;
+  text-align: center;
+  flex-wrap: nowrap;
+  float: top;
+}
+.home{
+  border-left:25px solid white;
+  border-bottom:25px solid transparent;
+  border-top:0px solid transparent;
+  overflow:hidden;
+  float:left;
+  float: top;
+}
+.home:hover{
+  opacity: .75;
+}
